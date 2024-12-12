@@ -24,15 +24,15 @@ footer.theme-dark > h2 {
 
 
   
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: var(--slate-800) }
 
-header.theme-dark   { background-color: #0f172a }
+header.theme-dark   { background-color: #0f172a  }
 
 header.theme-dark  h1 { color: var(--green-200); }
 
 section.theme-dark   { background-color: #0f172a }
 
-footer.theme-dark   { background-color: #0f172a }
+footer.theme-dark   { background-color: var(--slate-800) }
 
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
@@ -87,3 +87,16 @@ header.theme-dark .container-btn a.btn:nth-child(2):active {
     footer.theme-dark ul.footer-icons li a:link i, footer.theme-dark ul.footer-icons li a:visited i {
         color: var(--green-200);
     }
+
+    nav.theme-dark ul.links-wrapper li a:link, nav.theme-dark ul.links-wrapper li a:visited {
+        color: var(--green-200); }
+
+        .theme-dark a:not(.btn):link, .theme-dark a:not(.btn):visited {
+            color: var(--green-500);
+        }
+
+    nav.theme-dark ul.links-wrapper li a.btn-solid:focus, nav.theme-dark ul.links-wrapper li a.btn-solid:hover, nav.theme-dark ul.links-wrapper li a.btn-solid:active {
+            color: #000;
+            border: solid 2px var(--green-200);
+            background-color: var(--green-200);
+        }
