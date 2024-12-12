@@ -24,7 +24,7 @@ footer.theme-dark > h2 {
 
 
   
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: var(--slate-800) }
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
 
 header.theme-dark   { background-color: #0f172a  }
 
@@ -32,7 +32,7 @@ header.theme-dark  h1 { color: var(--green-200); }
 
 section.theme-dark   { background-color: #0f172a }
 
-footer.theme-dark   { background-color: var(--slate-800) }
+footer.theme-dark   { background-color: #0f172a }
 
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
